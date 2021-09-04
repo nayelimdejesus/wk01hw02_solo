@@ -1,9 +1,13 @@
-package com.nayelidj.wk01hw02_solo;
+package com.nayelidj.wk01hw02_solo.activities;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 import android.widget.TextView;
+
+import com.nayelidj.wk01hw02_solo.api.JsonPlaceHolderApi;
+import com.nayelidj.wk01hw02_solo.Post;
+import com.nayelidj.wk01hw02_solo.R;
 
 import java.util.List;
 import retrofit2.Call;
